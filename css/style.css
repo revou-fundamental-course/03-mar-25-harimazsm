@@ -168,6 +168,32 @@ header.scrolled {
   }
 }
 
+/* === JUDUL HALAMAN/sambutan === */
+.helloword {
+  font-size: 36px;
+  color: #FFDD95;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  position: relative;
+  animation: fadeInUp 1s ease-in-out;
+  text-transform: uppercase;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+.helloword2 {
+  font-size: 36px;
+  color: #FFDD95;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  position: relative;
+  animation: fadeInUp 1s ease-in-out;
+  text-transform: uppercase;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
