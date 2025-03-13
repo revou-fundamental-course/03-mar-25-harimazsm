@@ -802,16 +802,16 @@ footer {
 /* Message us */
 #message-us {
   background:linear-gradient(135deg, #26003b, #4f1169);
-  padding: 30px;
   border-radius: 12px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
   text-align: left;
   width: 100%;
   transition: all 0.3s ease-in-out;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
   gap: 18px;
+  flex-direction: column;
 }
+
 
 /* Hover effect */
 #message-us:hover {
@@ -922,7 +922,9 @@ input, textarea {
 
 .radio-group {
   flex: 1;
+  display: flex;
   padding-top: 8px;
+  align-items: center;
 }
 
 button[type="submit"] {
@@ -965,6 +967,6 @@ footer p {
 
 #messagePreview p span {
   flex: 1;
-  color: #666;
+  color: #ffffff;
   margin-left: 10px;
 }
